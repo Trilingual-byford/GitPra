@@ -13,3 +13,4 @@ git config user.name XXXX
 git config user.email XXXX@gmail.com
 git config --global		
 git commit 进入VIM编辑器进行提交 Commit Message写在第一行 然后wq保存
+git commit -m "My second commit.modify" gitNote.txt
