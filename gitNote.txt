@@ -21,3 +21,7 @@ git reflog  :
 cb60fd6 (HEAD -> master) HEAD@{0}: commit: Edit git log
 a712553 HEAD@{1}: reset: moving to HEAD
 a712553 HEAD@{2}: commit: seconde commit
+
+git reset --hard 21be914 回到版本21be914
+git reset --hard HEAD^  后退一个版本
+git reset --hard HEAD~n 后退n个版本
