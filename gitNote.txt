@@ -14,4 +14,10 @@ git config user.email XXXX@gmail.com
 git config --global		
 git commit 进入VIM编辑器进行提交 Commit Message写在第一行 然后wq保存
 git commit -m "My second commit.modify" gitNote.txt
-git log 查看提交记录
+git log :查看提交记录
+git log --pretty=oneline
+git log --oneline  简洁显示
+git reflog  :
+cb60fd6 (HEAD -> master) HEAD@{0}: commit: Edit git log
+a712553 HEAD@{1}: reset: moving to HEAD
+a712553 HEAD@{2}: commit: seconde commit
