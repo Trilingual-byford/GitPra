@@ -12,3 +12,4 @@ Email地址：niconicocsc@gmail.com
 git config user.name XXXX
 git config user.email XXXX@gmail.com
 git config --global		
+git commit 进入VIM编辑器进行提交
